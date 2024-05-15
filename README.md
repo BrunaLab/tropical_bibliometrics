@@ -1,2 +1,2 @@
 # tropical_bibliometrics
-bibliometric analuyses of tropical research
+bibliometric analyses of tropical research
