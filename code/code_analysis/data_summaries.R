@@ -86,46 +86,6 @@ rankings_pub <- kw %>%
   arrange(desc(pub_cat_2),rank_perc)
 rankings_pub
 
-# Identify "system" words
-
-system <- c(
-  "mammal",
-  "usa",
-  "grassland",
-  "tropical forest",
-  "panama",
-  "costa rica",
-  "tropical rainforest",
-  "bci",
-  "bird",
-  "drosophila melanogaster",
-  "brazil",
-  "mexico",
-  "tropical dryforest",
-  "borneo",
-  "cerrado",
-  "ecuador",
-  "cloud forest",
-  "ant",
-  "epiphyte",
-  "amazonia",
-  "secondary forest",
-  "tropic",
-  "chiroptera",
-  "rodent",
-  "colombia",
-  "atlantic forest",
-  "rainforest",
-  "puerto rico",
-  "savanna",
-  "africa",
-  "neotropic",
-  "amazon",
-  "usa",
-  "tanzania",
-  "venezuela",
-  "caribbean"
-)
 system <- as_tibble(system)
 
 rankings_pub <- rankings_pub %>%
@@ -457,46 +417,6 @@ rankings_pub
 
 # Identify "system" words
 
-system <- c(
-  "mammal",
-  "usa",
-  "grassland",
-  "tropical forest",
-  "panama",
-  "costa rica",
-  "tropical rainforest",
-  "bci",
-  "bird",
-  "drosophila melanogaster",
-  "drosophila",
-  "brazil",
-  "mexico",
-  "tropical dryforest",
-  "borneo",
-  "cerrado",
-  "ecuador",
-  "cloud forest",
-  "ant",
-  "epiphyte",
-  "amazonia",
-  "secondary forest",
-  "tropic",
-  "chiroptera",
-  "rodent",
-  "colombia",
-  "atlantic forest",
-  "rainforest",
-  "puerto rico",
-  "savanna",
-  "africa",
-  "neotropic",
-  "amazon",
-  "usa",
-  "tanzania",
-  "hawaii",
-  "island",
-  "lizard"
-)
 system <- as_tibble(system)
 
 rankings_pub <- rankings_pub %>%

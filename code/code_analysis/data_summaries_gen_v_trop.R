@@ -11,7 +11,7 @@ library(here)
 library(cowplot)
 
 # Load keyword records  -----------------
-kw<-read_csv(here("bibliometrics","data_clean","keywords.csv")) %>% 
+kw<-read_csv(here("data","data_archive","keywords.csv")) %>% 
   # filter(SO!="rbt") %>% 
   filter(SO!="trec") 
 

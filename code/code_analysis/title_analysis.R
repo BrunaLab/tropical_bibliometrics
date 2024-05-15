@@ -14,7 +14,7 @@ library(janitor)
 
 # Load keyword records  -----------------
 
-tw_all<-read_csv(here("bibliometrics","data_clean","tw_clean.csv")) %>% 
+tw_all<-read_csv(here("data","data_archive","tw_clean.csv")) %>% 
   mutate(pub_cat=as.factor(pub_cat_2)) %>% 
   mutate(jrnl_cat=as.factor(jrnl_cat)) %>% 
   mutate(index = row_number()) %>% 
@@ -27,15 +27,7 @@ tw<-tw_all
 
 rbt<-tw_all %>% filter(SO=="rbt") %>% group_by(final) %>% tally() %>% arrange(desc(n))
 
-# golfo
-# isla
-# especies
-# quinntana and roo separated , make quintanaroo
-# bosque
-# bosques
-# sotobosque
-# murcielago
-# insectos
+
 
 # %>% 
 #   filter(SO!="rbt") %>% 
@@ -161,7 +153,7 @@ unique(uncat$SO)
 
 # analysis - title words --------------------------------------------------
 
-system_list<-read_csv(here("bibliometrics","code_analysis","system.csv"), col_names = TRUE) %>% 
+system_list<-read_csv(here("data","data_archive","system.csv"), col_names = TRUE) %>% 
   filter(geo==TRUE)
 
 # top title words --------------------------------------------------------
@@ -429,13 +421,13 @@ tw_fig<-plot_grid(tw1_trop_bar, tw1_nontrop_bar,
 )
 tw_fig
 
-ggsave("tw_fig.jpeg", 
-       path = "./manuscript/figures", 
-       dpi=700,
-       width = 10,
-       height = 6,
-       units = c("in")
-)
+# ggsave("tw_fig.jpeg", 
+#        path = "./manuscript/figures", 
+#        dpi=700,
+#        width = 10,
+#        height = 6,
+#        units = c("in")
+# )
 
 # as venn diagram ---------------------------------------------------------
 
@@ -458,13 +450,13 @@ venn_kw<-ggvenn(A,
 venn_kw
 
 
-ggsave("venn_tw.jpeg", 
-       path = "./manuscript/figures", 
-       dpi=700,
-       width = 10,
-       height = 6,
-       units = c("in")
-)
+# ggsave("venn_tw.jpeg", 
+#        path = "./manuscript/figures", 
+#        dpi=700,
+#        width = 10,
+#        height = 6,
+#        units = c("in")
+# )
 
 
 
@@ -800,13 +792,13 @@ bigrams_fig<-plot_grid(tw_trop_bar, tw_nontrop_bar,
 )
 bigrams_fig
 
-ggsave("bigrams_fig.jpeg", 
-       path = "./manuscript/figures", 
-       dpi=700,
-       width = 11,
-       height = 6,
-       units = c("in")
-)
+# ggsave("bigrams_fig.jpeg", 
+#        path = "./manuscript/figures", 
+#        dpi=700,
+#        width = 11,
+#        height = 6,
+#        units = c("in")
+# )
 
 
 
@@ -836,13 +828,13 @@ venn_bigram<-ggvenn(A,
 venn_bigram
 
 
-ggsave("venn_bigram.jpeg", 
-       path = "./manuscript/figures", 
-       dpi=700,
-       width = 10,
-       height = 6,
-       units = c("in")
-)
+# ggsave("venn_bigram.jpeg", 
+#        path = "./manuscript/figures", 
+#        dpi=700,
+#        width = 10,
+#        height = 6,
+#        units = c("in")
+# )
 
 
 

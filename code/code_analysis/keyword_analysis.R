@@ -12,7 +12,7 @@ library(here)
 
 # load data ---------------------------------------------------------------
 
-kw <- read_csv(here("bibliometrics", "data_clean", "keywords.csv")) 
+kw <- read_csv(here("data","data_archive", "keywords.csv")) 
 
 # how much data to we have? -----------------------------------------------
 
