@@ -1,0 +1,124 @@
+country,fullyTropical
+Algeria,FALSE
+Angola,TRUE
+Antigua and Barbuda,TRUE
+Argentina,FALSE
+Aruba,TRUE
+Australia,FALSE
+Bahamas,FALSE
+Bangladesh,FALSE
+Barbados,TRUE
+Belize,TRUE
+Benin,TRUE
+Bolivia,FALSE
+Botswana,FALSE
+Brazil,FALSE
+British Virgin Islands,TRUE
+Burkina Faso,TRUE
+Burundi,TRUE
+Cambodia,TRUE
+Cameroon,TRUE
+Cape Verde,TRUE
+Central African Republic,TRUE
+Chad,TRUE
+Chile,FALSE
+China,FALSE
+Colombia,TRUE
+Comoros,TRUE
+Costa Rica,TRUE
+Cuba,TRUE
+Djibouti,TRUE
+Dominica,TRUE
+Dominican Republic,TRUE
+DR Congo,TRUE
+Ecuador,TRUE
+Egypt,FALSE
+El Salvador,TRUE
+Equatorial Guinea,TRUE
+Eritrea,TRUE
+Ethiopia,TRUE
+Fiji,TRUE
+French Guiana,TRUE
+Gabon,TRUE
+Gambia,TRUE
+Ghana,TRUE
+Grenada,TRUE
+Guadeloupe,TRUE
+Guatemala,TRUE
+Guinea,TRUE
+Guinea-Bissau,TRUE
+Guyana,TRUE
+Haiti,TRUE
+Honduras,TRUE
+India,FALSE
+Indonesia,TRUE
+Ivory Coast,TRUE
+Jamaica,TRUE
+Kenya,TRUE
+Kiribati,TRUE
+Laos,TRUE
+Liberia,TRUE
+Libya,FALSE
+Madagascar,FALSE
+Malawi,TRUE
+Malaysia,TRUE
+Maldives,TRUE
+Mali,TRUE
+Marshall Islands,TRUE
+Martinique,TRUE
+Mauritania,TRUE
+Mauritius,TRUE
+Mexico,FALSE
+Micronesia,TRUE
+Mozambique,FALSE
+Myanmar,FALSE
+Namibia,FALSE
+Nauru,TRUE
+Nicaragua,TRUE
+Niger,TRUE
+Nigeria,TRUE
+Oman,FALSE
+Palau,TRUE
+Panama,TRUE
+Papua New Guinea,TRUE
+Paraguay,FALSE
+Peru,TRUE
+Philippines,TRUE
+Republic of the Congo,TRUE
+Rwanda,TRUE
+Saint Kitts and Nevis,TRUE
+Saint Lucia,TRUE
+Saint Vincent and the Grenadines,TRUE
+Samoa,TRUE
+Sao Tome and Principe,TRUE
+Saudi Arabia,FALSE
+Senegal,TRUE
+Seychelles,TRUE
+Sierra Leone,TRUE
+Singapore,TRUE
+Solomon Islands,TRUE
+Somalia,TRUE
+South Africa,FALSE
+South Sudan,TRUE
+Sri Lanka,TRUE
+Sudan,TRUE
+Suriname,TRUE
+Taiwan,FALSE
+Tanzania,TRUE
+Thailand,TRUE
+Timor-Leste,TRUE
+Togo,TRUE
+Tonga,TRUE
+Trinidad and Tobago,TRUE
+Tuvalu,TRUE
+Uganda,TRUE
+United Arab Emirates,FALSE
+United States,FALSE
+United States Virgin Islands,TRUE
+Vanuatu,TRUE
+Venezuela,TRUE
+Vietnam,TRUE
+Western Sahara,FALSE
+Yemen,TRUE
+Zambia,TRUE
+Zimbabwe,FALSE
